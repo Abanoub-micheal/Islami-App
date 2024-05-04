@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quran_app/ui/Screens/HadethContent.dart';
 import 'package:quran_app/ui/Screens/SuraContant.dart';
 import 'package:quran_app/ui/Screens/home_screen.dart';
 
@@ -32,6 +33,7 @@ class IslamiApp extends StatelessWidget {
 
         HomeScreen.routeName:(context) => HomeScreen(),
         SuraContent.routeName:(context) => SuraContent(),
+        HadethContent.routeName: (context) => HadethContent()
       },
 
 
